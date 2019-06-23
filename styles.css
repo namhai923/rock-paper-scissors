@@ -66,6 +66,7 @@ body {
     overflow: hidden;
     border: 4px solid yellow;
     border-radius: 50%;
+    transition: 0.3s ease;
 }
 
 .choices {
@@ -86,16 +87,16 @@ body {
 }
 
 .glow-green {
-    border: 4px solid green !important;
-    box-shadow: 0 0 10px darkgreen !important;
+    border: 4px solid green;
+    box-shadow: 0 0 10px darkgreen;
 }
 
 .glow-red {
-    border: 4px solid red !important;
-    box-shadow: 0 0 10px darkred !important;
+    border: 4px solid red;
+    box-shadow: 0 0 10px darkred;
 }
 
 .glow-gray {
-    border: 4px solid gray !important;
-    box-shadow: 0 0 10px darkgray !important;
+    border: 4px solid gray;
+    box-shadow: 0 0 10px darkgray;
 }
